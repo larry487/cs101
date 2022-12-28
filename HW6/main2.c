@@ -5,9 +5,9 @@ int main()
     int i = 10;
 
     if(i %2 == 0)
-        printf("%d even");
+        printf("even");
     else
-        printf("%d odd");
+        printf("odd");
  
     return 0;
 }
