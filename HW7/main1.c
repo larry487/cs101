@@ -3,7 +3,6 @@
 int main()
 {
    int n =7;
-   int spc = n;
    
    for (int i=1;i<=n;i++){
            printf("%*c",n-i+1,' ');
@@ -12,6 +11,5 @@ int main()
            printf("%d",i);
        }
        printf("\n");
-       spc--;
    }
 }
